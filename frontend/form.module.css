@@ -1,0 +1,66 @@
+/* styling the body and set background image */
+.body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(lap.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Styling the main container of the form */
+.formContainer {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+/* Styling the headings */
+.formContainer h2{
+    text-align: center;
+    color: #ccc;
+    font-weight: bold;
+}
+
+/* styling the paragrapgh inside the body */
+.body p{
+    color: #ccc;
+    font-weight: bold;
+}
+
+/* styling the input fields */
+input {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+
+/* styling the login and register button */
+button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* setting hover effect to the button */
+button:hover {
+  background-color: orange;
+}
+
+/* styling for login and register links */
+.link {
+  color: #007bff;
+  text-decoration: none;
+  text-decoration: underline;
+}
